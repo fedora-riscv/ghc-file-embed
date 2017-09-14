@@ -26,7 +26,7 @@ BuildRequires:  ghc-template-haskell-devel
 
 %description
 Use Template Haskell to read a file or all the files in a directory, and turn
-them into (path, bytestring) pairs embedded in your haskell code.
+them into (path, bytestring) pairs embedded in your Haskell code.
 
 
 %package devel
