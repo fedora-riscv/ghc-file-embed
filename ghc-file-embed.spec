@@ -7,8 +7,8 @@
 %bcond_without tests
 
 Name:           ghc-%{pkg_name}
-Version:        0.0.10
-Release:        5%{?dist}
+Version:        0.0.10.1
+Release:        1%{?dist}
 Summary:        Use Template Haskell to embed file contents directly
 
 License:        BSD
@@ -83,6 +83,9 @@ This package provides the Haskell %{pkg_name} library development files.
 
 
 %changelog
+* Wed Jan 24 2018 Jens Petersen <petersen@redhat.com> - 0.0.10.1-1
+- update to 0.0.10.1
+
 * Wed Aug 30 2017 Jens Petersen <petersen@redhat.com> - 0.0.10-5
 - bump release over hledger subpackage
 
