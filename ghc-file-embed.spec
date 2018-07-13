@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.0.10.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Use Template Haskell to embed file contents directly
 
 License:        BSD
@@ -77,6 +77,9 @@ This package provides the Haskell %{pkg_name} library development files.
 
 
 %changelog
+* Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.10.1-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Wed Feb 07 2018 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.10.1-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
 
