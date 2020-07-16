@@ -7,7 +7,7 @@
 %bcond_without tests
 
 Name:           ghc-%{pkg_name}
-Version:        0.0.11.1
+Version:        0.0.11.2
 Release:        1%{?dist}
 Summary:        Use Template Haskell to embed file contents directly
 
@@ -120,6 +120,9 @@ This package provides the Haskell %{pkg_name} profiling library.
 
 
 %changelog
+* Thu Jul 16 2020 Jens Petersen <petersen@redhat.com> - 0.0.11.2-1
+- update to 0.0.11.2
+
 * Fri Feb 14 2020 Jens Petersen <petersen@redhat.com> - 0.0.11.1-1
 - update to 0.0.11.1
 
