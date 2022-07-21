@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.0.15.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Use Template Haskell to embed file contents directly
 
 License:        BSD
@@ -113,6 +113,9 @@ This package provides the Haskell %{pkg_name} profiling library.
 
 
 %changelog
+* Thu Jul 21 2022 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.15.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
+
 * Tue Jun 07 2022 Jens Petersen <petersen@redhat.com> - 0.0.15.0-1
 - https://hackage.haskell.org/package/file-embed-0.0.15.0/changelog
 
