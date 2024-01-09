@@ -4,7 +4,9 @@
 %global pkg_name file-embed
 %global pkgver %{pkg_name}-%{version}
 
+%ifnarch riscv64
 %bcond_without tests
+%endif
 
 Name:           ghc-%{pkg_name}
 Version:        0.0.15.0
